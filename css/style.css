@@ -1,44 +1,44 @@
-#content {
-float: left;
-background-size: cover;
-background-image:url(komp.jpg);
-background-repeat: no-repeat;
-width: 1580px;
-height: 800px; 
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  font-family: Courier New, Courier, monospace;
+  color: white;
 }
 
-#logo {
-  text-align: center;
-  background: grey;
+h1 {
+  padding: 20px;
+}
+
+header {
+  background-color: grey;
   color:white;
+  text-align: center;
+  vertical-align: middle;
 }
 
 #menu {
   float: left;
   min-height: 800px; 
   background-color: grey;
-  width: 250px;
+  width: 200px;
   font-weight: bold;
+}
 
+#content {
+float: left;
+background-size: cover;
+background-image:url(../images/komp.jpg);
+background-repeat: no-repeat;
+width: 1000px;
+height: 800px; 
 }
 
 #footer {
   clear: both;
   text-align: center;
-  position:absolute;
-  bottom: 60px; 
-  padding: 8px 5px;
-  width: 1820px;
-  height: 30px; 
+  height: 50px; 
   background: black; 
-  color:white;
-
-}
-
-body {
-  margin-left: 10px;
-  margin-right: 10px;
-  font-family: Courier New, Courier, monospace;
 }
 
 ul {
