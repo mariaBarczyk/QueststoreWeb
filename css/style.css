@@ -25,6 +25,7 @@ body {
   margin-right: 0px;
   width: 100%;
   font-family: Courier New, Courier, monospace;
+  font-weight: bold;
   color: white;
 }
 
@@ -39,7 +40,6 @@ h3 {
 
 header {
   background-color: grey;
-  color:white;
   text-align: center;
 }
 
@@ -48,7 +48,6 @@ header {
   min-height: 800px; 
   background-color: grey;
   width: 15%;
-  font-weight: bold;
 }
 
 #content {
@@ -83,10 +82,13 @@ height: 800px;
   text-align: center;
   height: 50px; 
   background: black; 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 ul {
-  list-style-type: none;
   margin-left: auto;
   padding: 0;
   background-color:grey;
@@ -123,7 +125,7 @@ input[type=text], select {
 input[type=submit] {
   background-color:#37bdc7;
   color: white;
-  height: 50px;
+  height: 60px;
   font-size: 30px;
   border: none;
 }
@@ -147,3 +149,20 @@ form {
   margin: 7%;
 }
 
+.content .button {
+  position: relative;
+  top: 200px;
+  left: 35%;
+  margin: 5px 10px;
+  background-color: #37bdc7;
+  font-size: 16px;
+  padding: 25px 40px;
+  border-width: 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+.active {
+  background-color: #37bdc7;
+}
