@@ -164,6 +164,23 @@ form {
   text-decoration: none;
   color: inherit;
 }
+
+.content .buttonGroup {
+    position: relative;
+    top: 200px;
+    left: 1%;
+    margin: 5px 10px;
+    background-color: #37bdc7;
+    font-size: 15px;
+    padding: 25px 40px;
+    border: 1px solid white;
+    border-width: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
 .active {
   background-color: #37bdc7;
 }
