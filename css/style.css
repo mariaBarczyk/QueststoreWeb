@@ -143,6 +143,7 @@ input {
   width: 32%;
   border-radius: 4px;
   margin: 0% 33%;
+  font-size: 20px;
 }
 
 form {
@@ -155,7 +156,7 @@ form {
   left: 35%;
   margin: 5px 10px;
   background-color: #37bdc7;
-  font-size: 16px;
+  font-size: 20px;
   padding: 25px 40px;
   border-width: 5px;
   border-radius: 5px;
@@ -165,4 +166,15 @@ form {
 }
 .active {
   background-color: #37bdc7;
+}
+
+#list {
+  margin: 0% 15%;
+  background-color: white;
+  min-height: 60%;
+  width: 70%;
+  opacity: 0.75;
+  
+  color: black;
+
 }
